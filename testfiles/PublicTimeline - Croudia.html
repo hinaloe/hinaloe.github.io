@@ -14,22 +14,6 @@
 <meta content="authenticity_token" name="csrf-param">
 <meta content="KjwSmQc37ZWhx/zaV7Jw4iyDMbxkPlzGwRqsmwrT2IQ=" name="csrf-token">
 <style type="text/css"></style>
-    <script>
-    $(document).ready(function() {
-	
-// Support for AJAX loaded modal window.
-// Focuses on first input textbox after it loads the window.
-$('#let').click(function(e) {
-	e.preventDefault();
-	var url = "Croudia_login.html";
-	
-		$.get(url, function(data) {
-			$('<div class="modal hide fade">' + data + '</div>').modal();
-		}).success(function() { $('input:text:visible:first').focus(); });
-	
-});
-	
-});</script>
     </head>
 <body>
  <div class="navbar navbar-inverse navbar-fixed-top">
@@ -901,5 +885,22 @@ google_ad_height = 250;
 <script src="./PublicTimeline - Croudia_files/jquery-1.8.2.min.js"></script> 
 <script src="./PublicTimeline - Croudia_files/bootstrap.min.js"></script>
 <script src="./PublicTimeline - Croudia_files/pc_croudia.js"></script>
+        <script>
+    $(document).ready(function() {
+	
+// Support for AJAX loaded modal window.
+// Focuses on first input textbox after it loads the window.
+$('#let').click(function(e) {
+	e.preventDefault();
+	var url = "Croudia_login.html";
+	
+		$.get(url, function(data) {
+			$('<div class="modal hide fade">' + data + '</div>').modal();
+		}).success(function() { $('input:text:visible:first').focus(); });
+	
+});
+	
+});</script>
+
 
 </div></body></html>
