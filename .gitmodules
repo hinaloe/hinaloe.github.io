@@ -1,3 +1,6 @@
 [submodule "bootstrap-repo"]
 	path = bootstrap-repo
 	url = https://github.com/kimama1997/bootstrap.git
+[submodule "jquery-repo"]
+	path = jquery-repo
+	url = https://github.com/kimama1997/jquery.git
