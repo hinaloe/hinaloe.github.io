@@ -7,7 +7,7 @@
 }
 .navbar-pink .navbar-brand:hover,
 .navbar-pink .navbar-brand:focus {
-  color: white;
+  color: #ffffff;
   background-color: transparent;
 }
 .navbar-pink .navbar-text {
@@ -24,7 +24,7 @@
 .navbar-pink .navbar-nav > .active > a,
 .navbar-pink .navbar-nav > .active > a:hover,
 .navbar-pink .navbar-nav > .active > a:focus {
-  color: white;
+  color: #ffffff;
   background-color: #ffb4c0;
 }
 .navbar-pink .navbar-nav > .disabled > a,
@@ -41,7 +41,7 @@
   background-color: #ff8196;
 }
 .navbar-pink .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: #ffffff;
 }
 .navbar-pink .navbar-collapse,
 .navbar-pink .navbar-form {
@@ -51,7 +51,7 @@
 .navbar-pink .navbar-nav > .open > a:hover,
 .navbar-pink .navbar-nav > .open > a:focus {
   background-color: #ffb4c0;
-  color: white;
+  color: #ffffff;
 }
 @media (max-width: 767px) {
   .navbar-pink .navbar-nav .open .dropdown-menu > .dropdown-header {
@@ -71,7 +71,7 @@
   .navbar-pink .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-pink .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-pink .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: white;
+    color: #ffffff;
     background-color: #ffb4c0;
   }
   .navbar-pink .navbar-nav .open .dropdown-menu > .disabled > a,
