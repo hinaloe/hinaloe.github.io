@@ -18,6 +18,7 @@
 
 </script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/asset/coffee/hnletk.js"></script>
 
 
         <meta itemprop="title" content="ヒナロエ公式HP">
@@ -150,6 +151,7 @@
         setTimeout(function () {
             document.querySelector('.env').className += ' fade';
             setTimeout(function () {
+                ga("send","event","jump","redirect","top.html");
                 location.href = "/top.html", 1000
             });
         }, 5000);
