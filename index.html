@@ -144,6 +144,7 @@
             "animationend",
             function (e) {
                 console.log(e);
+                ga("send","event","animated-jump","redirect","top.html");
                 location.href = "/top.html";
             }, false);
         })();
