@@ -26,6 +26,7 @@
         <meta itemprop="photo" content="https://s.gravatar.com/avatar/00c062c68265474413402f10a4d051b5?s=320">
         <meta itemprop="description" content="ヒナロエ(@hnle0/kimama1997)の公式ホームページはこちら！">
         <meta itemprop="image" content="https://s.gravatar.com/avatar/00c062c68265474413402f10a4d051b5?s=320">
+        <meta name="msvalidate.01" content="0AA4BFF9C89009313B92C320086D4F8A" />
 
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="hnle0">
@@ -144,6 +145,7 @@
             "animationend",
             function (e) {
                 console.log(e);
+                ga("send","event","animated-jump","redirect","top.html");
                 location.href = "/top.html";
             }, false);
         })();
